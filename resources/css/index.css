@@ -54,3 +54,30 @@ h2, h4 {
   margin: 0;
   padding: 10px 0;
 }
+
+.products {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.cozy-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cozy-item {
+  padding: 5px;
+}
+
+.cozy-item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.cozy-item span {
+  display: block;
+  padding: 5px;
+}
