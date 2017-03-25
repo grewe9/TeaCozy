@@ -34,3 +34,23 @@ a {
   color: seashell;
   padding: 0 10px;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  background-image: url("E:/Projects/TeaCozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.mission {
+  width: 1200px;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px 0;
+}
