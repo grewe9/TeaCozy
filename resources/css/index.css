@@ -57,6 +57,7 @@ h2, h4 {
 
 .products {
   width: 1000px;
+  height: 700px;
   margin: auto;
   padding-top: 70px;
 }
@@ -81,3 +82,49 @@ h2, h4 {
   display: block;
   padding: 5px;
 }
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 70px;
+  height: 500px;
+  width: 1200px;
+  background-image: url("E:/Projects/TeaCozy/resources/images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.locations h2 {
+  background-color: transparent;
+  margin: 0 0 5px 0;
+}
+
+.cozy-spots-container {
+  display: flex;
+  width: 1100px;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cozy-spot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 280px;
+  padding: 10px;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.cozy-spot h3 {
+  padding: 10px;
+  margin: 0;
+}
+/*
+.cozy-spots-container span {
+  display: block;
+  margin-bottom: 20px;
+}*/
